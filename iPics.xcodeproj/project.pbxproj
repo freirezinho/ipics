@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7332F5402BB261B400362798 /* UICVCellRegistration+CellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F53F2BB261B400362798 /* UICVCellRegistration+CellProvider.swift */; };
+		7332F5462BB2632200362798 /* IPXPhotoExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F5452BB2632200362798 /* IPXPhotoExplorerViewController.swift */; };
+		7332F5482BB45F3100362798 /* IPXPhotoExplorerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F5472BB45F3100362798 /* IPXPhotoExplorerInteractor.swift */; };
+		7332F54A2BB4603B00362798 /* IPXPhotoExplorerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F5492BB4603B00362798 /* IPXPhotoExplorerPresenter.swift */; };
+		7332F54C2BB4605900362798 /* PictureWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F54B2BB4605900362798 /* PictureWorker.swift */; };
+		7332F54E2BB461A800362798 /* IPXPhotoGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F54D2BB461A800362798 /* IPXPhotoGridCell.swift */; };
+		7332F5502BB4622C00362798 /* IPXPhotoGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F54F2BB4622C00362798 /* IPXPhotoGridLayout.swift */; };
+		7332F5522BB4636000362798 /* IPXPhotoGridFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F5512BB4636000362798 /* IPXPhotoGridFactory.swift */; };
+		7332F5552BB4654F00362798 /* CGRect+Divided_Integral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F5542BB4654F00362798 /* CGRect+Divided_Integral.swift */; };
+		7332F5572BB4668400362798 /* IPXPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332F5562BB4668400362798 /* IPXPhotoModel.swift */; };
 		736CF3442BAF22DE00D510CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CF3432BAF22DE00D510CB /* AppDelegate.swift */; };
 		736CF3462BAF22DE00D510CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CF3452BAF22DE00D510CB /* SceneDelegate.swift */; };
 		736CF3482BAF22DE00D510CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CF3472BAF22DE00D510CB /* ViewController.swift */; };
-		736CF34B2BAF22DE00D510CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736CF3492BAF22DE00D510CB /* Main.storyboard */; };
 		736CF34E2BAF22DE00D510CB /* iPics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 736CF34C2BAF22DE00D510CB /* iPics.xcdatamodeld */; };
 		736CF3502BAF22DF00D510CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736CF34F2BAF22DF00D510CB /* Assets.xcassets */; };
 		736CF3532BAF22DF00D510CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736CF3512BAF22DF00D510CB /* LaunchScreen.storyboard */; };
 		736CF35E2BAF22DF00D510CB /* iPicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CF35D2BAF22DF00D510CB /* iPicsTests.swift */; };
 		736CF3682BAF22DF00D510CB /* iPicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CF3672BAF22DF00D510CB /* iPicsUITests.swift */; };
 		736CF36A2BAF22DF00D510CB /* iPicsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CF3692BAF22DF00D510CB /* iPicsUITestsLaunchTests.swift */; };
+		736CF3792BAF281100D510CB /* Array+NSLayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CF3782BAF281100D510CB /* Array+NSLayoutConstraints.swift */; };
+		736CF37B2BAF298400D510CB /* ExtensionNamespacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CF37A2BAF298400D510CB /* ExtensionNamespacer.swift */; };
+		736CF37F2BAF2F4700D510CB /* IPXPhotoGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CF37E2BAF2F4700D510CB /* IPXPhotoGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7332F53F2BB261B400362798 /* UICVCellRegistration+CellProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICVCellRegistration+CellProvider.swift"; sourceTree = "<group>"; };
+		7332F5452BB2632200362798 /* IPXPhotoExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPXPhotoExplorerViewController.swift; sourceTree = "<group>"; };
+		7332F5472BB45F3100362798 /* IPXPhotoExplorerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPXPhotoExplorerInteractor.swift; sourceTree = "<group>"; };
+		7332F5492BB4603B00362798 /* IPXPhotoExplorerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPXPhotoExplorerPresenter.swift; sourceTree = "<group>"; };
+		7332F54B2BB4605900362798 /* PictureWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureWorker.swift; sourceTree = "<group>"; };
+		7332F54D2BB461A800362798 /* IPXPhotoGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPXPhotoGridCell.swift; sourceTree = "<group>"; };
+		7332F54F2BB4622C00362798 /* IPXPhotoGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPXPhotoGridLayout.swift; sourceTree = "<group>"; };
+		7332F5512BB4636000362798 /* IPXPhotoGridFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPXPhotoGridFactory.swift; sourceTree = "<group>"; };
+		7332F5542BB4654F00362798 /* CGRect+Divided_Integral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Divided_Integral.swift"; sourceTree = "<group>"; };
+		7332F5562BB4668400362798 /* IPXPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPXPhotoModel.swift; sourceTree = "<group>"; };
 		736CF3402BAF22DE00D510CB /* iPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736CF3432BAF22DE00D510CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		736CF3452BAF22DE00D510CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		736CF3472BAF22DE00D510CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		736CF34A2BAF22DE00D510CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		736CF34D2BAF22DE00D510CB /* iPics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPics.xcdatamodel; sourceTree = "<group>"; };
 		736CF34F2BAF22DF00D510CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736CF3522BAF22DF00D510CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,9 @@
 		736CF3632BAF22DF00D510CB /* iPicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		736CF3672BAF22DF00D510CB /* iPicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPicsUITests.swift; sourceTree = "<group>"; };
 		736CF3692BAF22DF00D510CB /* iPicsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPicsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		736CF3782BAF281100D510CB /* Array+NSLayoutConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+NSLayoutConstraints.swift"; sourceTree = "<group>"; };
+		736CF37A2BAF298400D510CB /* ExtensionNamespacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionNamespacer.swift; sourceTree = "<group>"; };
+		736CF37E2BAF2F4700D510CB /* IPXPhotoGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPXPhotoGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7332F5412BB262EB00362798 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7332F5422BB262F000362798 /* IPXPhotoExplorer */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7332F5422BB262F000362798 /* IPXPhotoExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				7332F5452BB2632200362798 /* IPXPhotoExplorerViewController.swift */,
+				7332F5472BB45F3100362798 /* IPXPhotoExplorerInteractor.swift */,
+				7332F5492BB4603B00362798 /* IPXPhotoExplorerPresenter.swift */,
+				7332F54B2BB4605900362798 /* PictureWorker.swift */,
+			);
+			path = IPXPhotoExplorer;
+			sourceTree = "<group>";
+		};
+		7332F5532BB464B500362798 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				7332F5542BB4654F00362798 /* CGRect+Divided_Integral.swift */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
 		736CF3372BAF22DE00D510CB = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +152,12 @@
 		736CF3422BAF22DE00D510CB /* iPics */ = {
 			isa = PBXGroup;
 			children = (
+				7332F5412BB262EB00362798 /* Features */,
+				736CF37C2BAF2F1F00D510CB /* Components */,
+				736CF3762BAF27EA00D510CB /* Helpers */,
 				736CF3432BAF22DE00D510CB /* AppDelegate.swift */,
 				736CF3452BAF22DE00D510CB /* SceneDelegate.swift */,
 				736CF3472BAF22DE00D510CB /* ViewController.swift */,
-				736CF3492BAF22DE00D510CB /* Main.storyboard */,
 				736CF34F2BAF22DF00D510CB /* Assets.xcassets */,
 				736CF3512BAF22DF00D510CB /* LaunchScreen.storyboard */,
 				736CF3542BAF22DF00D510CB /* Info.plist */,
@@ -128,6 +181,45 @@
 				736CF3692BAF22DF00D510CB /* iPicsUITestsLaunchTests.swift */,
 			);
 			path = iPicsUITests;
+			sourceTree = "<group>";
+		};
+		736CF3762BAF27EA00D510CB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7332F5532BB464B500362798 /* CoreGraphics */,
+				736CF3772BAF27F900D510CB /* UIKit */,
+				736CF37A2BAF298400D510CB /* ExtensionNamespacer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		736CF3772BAF27F900D510CB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				736CF3782BAF281100D510CB /* Array+NSLayoutConstraints.swift */,
+				7332F53F2BB261B400362798 /* UICVCellRegistration+CellProvider.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		736CF37C2BAF2F1F00D510CB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				736CF37D2BAF2F2500D510CB /* IPXPhotoGrid */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		736CF37D2BAF2F2500D510CB /* IPXPhotoGrid */ = {
+			isa = PBXGroup;
+			children = (
+				736CF37E2BAF2F4700D510CB /* IPXPhotoGrid.swift */,
+				7332F54D2BB461A800362798 /* IPXPhotoGridCell.swift */,
+				7332F54F2BB4622C00362798 /* IPXPhotoGridLayout.swift */,
+				7332F5512BB4636000362798 /* IPXPhotoGridFactory.swift */,
+				7332F5562BB4668400362798 /* IPXPhotoModel.swift */,
+			);
+			path = IPXPhotoGrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +328,6 @@
 			files = (
 				736CF3532BAF22DF00D510CB /* LaunchScreen.storyboard in Resources */,
 				736CF3502BAF22DF00D510CB /* Assets.xcassets in Resources */,
-				736CF34B2BAF22DE00D510CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +352,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7332F5502BB4622C00362798 /* IPXPhotoGridLayout.swift in Sources */,
+				7332F5522BB4636000362798 /* IPXPhotoGridFactory.swift in Sources */,
+				736CF37F2BAF2F4700D510CB /* IPXPhotoGrid.swift in Sources */,
+				736CF3792BAF281100D510CB /* Array+NSLayoutConstraints.swift in Sources */,
+				7332F5482BB45F3100362798 /* IPXPhotoExplorerInteractor.swift in Sources */,
+				7332F5462BB2632200362798 /* IPXPhotoExplorerViewController.swift in Sources */,
+				7332F54E2BB461A800362798 /* IPXPhotoGridCell.swift in Sources */,
+				7332F54C2BB4605900362798 /* PictureWorker.swift in Sources */,
+				7332F5402BB261B400362798 /* UICVCellRegistration+CellProvider.swift in Sources */,
+				7332F5552BB4654F00362798 /* CGRect+Divided_Integral.swift in Sources */,
 				736CF3482BAF22DE00D510CB /* ViewController.swift in Sources */,
+				736CF37B2BAF298400D510CB /* ExtensionNamespacer.swift in Sources */,
+				7332F5572BB4668400362798 /* IPXPhotoModel.swift in Sources */,
 				736CF3442BAF22DE00D510CB /* AppDelegate.swift in Sources */,
 				736CF34E2BAF22DE00D510CB /* iPics.xcdatamodeld in Sources */,
 				736CF3462BAF22DE00D510CB /* SceneDelegate.swift in Sources */,
+				7332F54A2BB4603B00362798 /* IPXPhotoExplorerPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +405,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		736CF3492BAF22DE00D510CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				736CF34A2BAF22DE00D510CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		736CF3512BAF22DF00D510CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -449,8 +545,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iPics/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,8 +572,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iPics/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
